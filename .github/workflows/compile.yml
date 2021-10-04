@@ -2,8 +2,8 @@ name: LaTeX build
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
+    tags:
+      - "*"
     branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
