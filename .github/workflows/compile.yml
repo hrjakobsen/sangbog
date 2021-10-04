@@ -30,3 +30,7 @@ jobs:
         with:
           name: Sangbog
           path: sangbog.pdf
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: sangbog.pdf
